@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Slow Fashion</title> 
+        <style> 
+            body { 
+                font-family: Arial, sans-serif; 
+                line-height: 1.6; 
+                margin: 0; 
+                padding: 0; 
+                background-color: #f9f9f9; 
+                padding-bottom: 50px; /* Zajistí prostor pro footer na spodní straně */
+            }
+            header { 
+                background: #4CAF50; 
+                color: white; 
+                padding: 10px 0; 
+                text-align: center; 
+            }
+            nav { 
+                margin: 20px 0; 
+            }
+            nav a { 
+                margin: 0 15px; 
+                text-decoration: none; 
+                color: #4CAF50; 
+            } 
+            section { 
+                padding: 20px; 
+                max-width: 800px; 
+                margin: auto; 
+                background: white; 
+                border-radius: 5px; 
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+            }
+            footer { 
+                text-align: center; 
+                padding: 10px 0; 
+                background: #4CAF50; 
+                color: white;   
+                position: fixed; 
+                bottom: 0; 
+                left: 0;
+                width: 100%; /* Footer bude vždy na spodní straně */
+            }
+            table { 
+                width: 80%; 
+                margin: 20px auto; 
+                border-collapse: collapse; 
+                background-color: white; 
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+            }
+            th, td { 
+                padding: 12px; 
+                text-align: center; 
+                border: 1px solid #ddd; 
+            }
+            th { 
+                background-color: #4CAF50; 
+                color: white; 
+            }
+            tr:nth-child(even) { 
+                background-color: #f2f2f2; 
+            }
+            tr:hover { 
+                background-color: #ddd; 
+            }
+            .image-container { 
+                text-align: center; 
+                margin-top: 20px; 
+            }
+            .image-container div { 
+                display: inline-block; 
+                margin: 10px; 
+            }
+            .image-container img { 
+                width: 200px; 
+                height: 200px; 
+            }
+        </style> 
+    </head> 
+    <body> 
+        <header> 
+            <h1>Slow Fashion</h1>
+        </header>
+        <nav> 
+            <a href="index.html">Co je Slow Fashion?</a>
+            <a href="vyhody.html">Výhody</a>
+            <a href="jak_se_zapojit.html">Jak se zapojit</a>
+            <a href="materialy.html">Materiály</a> 
+        </nav>
+        <section id="vyhody">
+            <h2 style="text-align: center;">Tabulka látek pro Slow Fashion</h2>
+            <!-- Tabulka -->
+            <table>
+                <tr>
+                    <th>Materiál</th>
+                    <th>Typ</th>
+                    <th>Udržitelnost</th>
+                    <th>Výhody</th>
+                </tr>
+                <tr>
+                    <td>Organická bavlna</td>
+                    <td>Přírodní</td>
+                    <td>Vyrobeno bez pesticidů, šetrné k půdě</td>
+                    <td>Ekologické, měkké na dotek, prodyšné</td>
+                </tr>
+                <tr>
+                    <td>Len</td>
+                    <td>Přírodní</td>
+                    <td>Nízká spotřeba vody, bez chemických hnojiv</td>
+                    <td>Lehký, prodyšný, odolný</td>
+                </tr>
+                <tr>
+                    <td>Recyklovaný polyester</td>
+                    <td>Umělý (recyklovaný)</td>
+                    <td>Vyroben z plastových lahví, snižuje množství odpadu</td>
+                    <td>Lehké, odolné, snadno se čistí</td>
+                </tr>
+                <tr>
+                    <td>Hedvábí</td>
+                    <td>Přírodní</td>
+                    <td>Šetrné k přírodě, pokud je produkováno udržitelným způsobem</td>
+                    <td>Luxusní vzhled, jemné na dotek</td>
+                </tr>
+                <tr>
+                    <td>Tencel (Lyocell)</td>
+                    <td>Přírodní (ze dřeva)</td>
+                    <td>Výroba šetrná k životnímu prostředí, biodegradabilní</td>
+                    <td>Hedvábně jemné, hypoalergenní, prodyšné</td>
+                </tr>
+            </table>
+        </section>
+        <footer>
+            <p>&copy; 2024 Slow Fashion</p>
+        </footer>
+        <h2 style="text-align: center;">Látky pro Slow Fashion</h2>
+        <div class="image-container">
+            <div>
+                <img src= organicka_bavlna.jpeg alt="Organická bavlna">
+                <h3>Organická bavlna</h3>
+            </div>
+            <div>
+                <img src= len.jpg alt="Len">
+                <h3>Len</h3>
+            </div>
+            <div>
+                <img src= polyester.jpg alt="Recyklovaný polyester">
+                <h3>Recyklovaný polyester</h3>
+            </div>
+            <div>
+                <img src= hedvabi.jpg alt="Hedvábí">
+                <h3>Hedvábí</h3>
+            </div>
+            <div>
+                <img src= tencel.jpg alt="Tencel (Lyocell)">
+                <h3>Tencel (Lyocell)</h3>
+            </div>
+        </div>
+    </body>
+</html>
